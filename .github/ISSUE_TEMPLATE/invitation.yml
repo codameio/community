@@ -1,0 +1,38 @@
+name: Invitation to the GitHub Community Organization
+description: I would like to be part of the awesome community
+title: "Please invite me to the GitHub Community Organization"
+labels: [invite me]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Insert your name here
+    validations:
+      required: true
+  - type: input
+    id: discordname
+    attributes:
+      label: Discord Username (if applicable)
+      placeholder: Insert your Discord username here
+    validations:
+      required: false
+  - type: input
+    id: youremail
+    attributes:
+      label: Email (if applicable)
+      placeholder: Insert your Email.
+    validations:
+      required: false
+  - type: textarea
+    id: briefcontext
+    attributes:
+      label: Additional Context
+      description: Where did you meet Codame IT Solutions? What do you like about this community? Why do you want to join?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        You can also join our Discord community [here](https://discord.gg/RXhJ2Rnbxm)
+        Feel free to check out other cool repositories of the Codame IT Solutions [here](https://github.com/codameio)
